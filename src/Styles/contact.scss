@@ -1,0 +1,51 @@
+.contact {
+  width: 100%;
+  margin-top: 2000px;
+  border-top: 1px dashed red;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contact {
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px dashed red;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact {
+    border-top: 1px dashed red;
+  }
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+  display: block;
+  margin: 10px auto;
+  font-size: 18px;
+  color: #777;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+#contact textarea {
+  resize: none;
+}
+
+#contact .send-button button[type="submit"] {
+  color: #fff;
+  background-color: rgb(220, 20, 60);
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: .5s all ease;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#contact .send-button button[type="submit"]:hover {
+  background-color: rgba(220, 20, 60, 0.5);
+  color: cornsilk;
+}

@@ -1,0 +1,24 @@
+article {
+  min-height: 400px;
+  border-top: 1px dashed red;
+}
+
+.gravatar {
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 0px 10px 10px 0px;
+  background-image: url("../Images/gravatar.jpg");
+  border-radius: 50%;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p{
+  padding: 10px;
+}
+
+h2 {
+  animation-iteration-count: infinite;
+}

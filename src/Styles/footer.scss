@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+i {
+  font-size: 40px;
+  margin: 20px;
+  cursor: pointer;
+  &:hover {
+    color: #0077B5;
+  }
+}
+
+.social {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin {
+  animation-iteration-count: infinite;
+}
+
+.github {
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,99 @@
+.wrapper {
+  height: 550px;
+  border-top: 1px dashed red;
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px dashed red;
+  }
+}
+
+.firstLine {
+  display: flex;
+  height: 100px;
+}
+
+.secondLine {
+  display: flex;
+  height: 100px;
+  margin-top: 20px;
+}
+
+@mixin skillsImg {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  flex: 1;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.image1 {
+  @include skillsImg;
+  background-image: url("../Images/html.png");
+}
+
+.image2 {
+  @include skillsImg;
+  background-image: url("../Images/css.svg");
+  background-size: 28%;
+}
+
+.image3 {
+  @include skillsImg;
+  background-image: url("../Images/js.svg");
+  background-size: 28%;
+}
+
+.image4 {
+  @include skillsImg;
+  background-image: url("../Images/jQuery.png");
+}
+
+.image5 {
+  @include skillsImg;
+  background-image: url("../Images/es6.png");
+}
+
+.image6 {
+  @include skillsImg;
+  background-image: url("../Images/react.png");
+}
+
+.image7 {
+  @include skillsImg;
+  background-image: url("../Images/gulp.svg");
+  background-size: 16%;
+}
+
+.image8 {
+  @include skillsImg;
+  background-image: url("../Images/sass.png");
+}
+
+.image9 {
+  @include skillsImg;
+  background-image: url("../Images/rwd.png");
+  background-size: 55%;
+}
+
+.image10 {
+  @include skillsImg;
+  background-image: url("../Images/git.png");
+  background-size: 30%;
+}
+
+
+@media (min-width: 800px) {
+  .skillsDescription {
+    padding: 60px 10px;
+    font-size: 18px;
+  }
+}
